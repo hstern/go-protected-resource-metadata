@@ -12,7 +12,7 @@ import (
 // WellKnownPathSegment is the well-known URI path under which a protected
 // resource serves its metadata document (RFC 9728 §3.1). For a resource
 // identifier with a path component, the resource's own path is appended after
-// this segment; see WellKnownPath (forthcoming) for the full construction rule.
+// this segment; see [WellKnownPath] for the full construction rule.
 const WellKnownPathSegment = "/.well-known/oauth-protected-resource"
 
 // Bearer token transmission methods for BearerMethodsSupported (RFC 9728 §2,
